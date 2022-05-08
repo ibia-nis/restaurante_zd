@@ -115,7 +115,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
                 
-    if dia == "2":
+    elif dia == "2":
         print(f'Platillos:\n1.{menus["martes_1"]}({menus["p_martes_1"]}$)\n2.{menus["martes_2"]}({menus["p_martes_2"]}$)\n3.{menus["martes_3"]}({menus["p_martes_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
@@ -173,7 +173,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
                 
-    if dia == "3":
+    elif dia == "3":
         print(f'Platillos:\n1.{menus["miercoles_1"]}({menus["p_miercoles_1"]}$)\n2.{menus["miercoles_2"]}({menus["p_miercoles_2"]}$)\n3.{menus["miercoles_3"]}({menus["p_miercoles_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
@@ -231,7 +231,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
                 
-    if dia == "4":
+    elif dia == "4":
         print(f'Platillos:\n1.{menus["jueves_1"]}({menus["p_jueves_1"]}$)\n2.{menus["jueves_2"]}({menus["p_jueves_2"]}$)\n3.{menus["jueves_3"]}({menus["p_jueves_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
@@ -289,7 +289,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
     
-    if dia == "5":
+    elif dia == "5":
         print(f'Platillos:\n1.{menus["viernes_1"]}({menus["p_viernes_1"]}$)\n2.{menus["viernes_2"]}({menus["p_viernes_2"]}$)\n3.{menus["viernes_3"]}({menus["p_viernes_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
@@ -347,7 +347,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
     
-    if dia == "6":
+    elif dia == "6":
         print(f'Platillos:\n1.{menus["sabado_1"]}({menus["p_sabado_1"]}$)\n2.{menus["sabado_2"]}({menus["p_sabado_2"]}$)\n3.{menus["sabado_3"]}({menus["p_sabado_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
@@ -405,7 +405,7 @@ while(ordenar==1):
             else:
                 print("Por favor, escribir una opción existente.\n")
     
-    if dia == "7":
+    elif dia == "7":
         print(f'Platillos:\n1.{menus["domingo_1"]}({menus["p_domingo_1"]}$)\n2.{menus["domingo_2"]}({menus["p_domingo_2"]}$)\n3.{menus["domingo_3"]}({menus["p_domingo_3"]}$)\n')
         while(ordenar==1):
             platillo = input("¿Qué desea ordenar?\n")
